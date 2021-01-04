@@ -129,8 +129,8 @@ function showSuggestions(list){
     let recent;
     shortcuts_header = '<p class="search_head">' +"TRENDING SHORTCUTS"+'</p>';
     shortcuts = '<div id="messages" class="alert alert-info" role="alert">'+'<i class="fas fa-envelope-open-text">'+'</i>'+'Messages'+'</div>'+
-    '<div id="attachments" class="alert alert-info" role="alert">'+'<i class="fas fa-envelope-open-text">'+'</i>'+'Attachments'+'</div>'+
-    '<div id="people" class="alert alert-info" role="alert">'+'<i class="fas fa-envelope-open-text">'+'</i>'+'People'+'</div>';
+    '<div id="attachments" class="alert alert-info" role="alert">'+'<i class="fas fa-paperclip">'+'</i>'+'Attachments'+'</div>'+
+    '<div id="people" class="alert alert-info" role="alert">'+'<i class="fas fa-user-friends">'+'</i>'+'People'+'</div>';
 
     recent = '<p class="search_head">' +"RECENT SEARCH"+'</p>';
     if(!list.length){
